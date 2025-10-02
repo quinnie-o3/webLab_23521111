@@ -103,3 +103,31 @@ body {
 .contact-box a:hover {
   text-decoration: underline;
 }
+
+/*Paragraphs*/
+.highlight {
+  background: #fff3b0;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+.blue-text {
+  color: #1e3799;
+  font-weight: bold;
+}
+
+.italic-text {
+  font-style: italic;
+  color: #555;
+}
+
+.yellow-highlight {
+  background-color: #fdf3d5;
+  font-weight: bold;
+}
+
+.shadow-text {
+  color: #2c3e50;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  font-weight: bold;
+}
