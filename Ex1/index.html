@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>myLab1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Title h1</h1>
+    <h2>Title h2</h2>
+    <h3>Title h3</h3>
+    <h4>Title h4</h4>
+    <h5>Titke h5</h5>
+    <h6>Title h6</h6>
+    <p>Paragraph</p>
+    <p><b>Bold</b></p>
+    <p><strong>Strong_ huh</strong></p>
+    <p><i>Italic</i></p>
+    <p><em>em</em></p>
+    <p><u>Underline</u></p>
+    <p>(x-5)<sup>2</sup></p>
+    <p>x <sub>3</sub>+ 2x -<sub>7</sub></p>
+    <!--http://127.0.0.1:5501/index.html-->
+    <p>Copyright &#169; 2020</p>
+    <p>
+        <blockquote>Học, học nữa, học mãi.
+            <cite>&mdash; Lê-nin</cite>
+        </blockquote>
+    </p>
+    <p>
+        <address>KP6, Linh Trung, Thủ Đức, HCM.</address>
+    </p>
+
+    <ul>
+        <p>Danh sách website:</p>
+        <li><a href="http://uit.edu.vn/" target="_blank">UIT</a></li>
+        <li>SE</li>
+        <li>Website môn học UIT</li>
+    </ul>
+    <ol>
+        <p>Danh sách website:</p>
+        <li><a href="http://uit.edu.vn/"target="_blank">UIT</a></li>
+        <li>SE</li>
+        <li>Website môn học UIT</li>
+    </ol>
+
+    <a href="http://fb.com/">Facebook</a>
+    <a href="http://uit.edu.vn" target="_blank">UIT</a>
+    <br>
+    <a href="https://www.facebook.com/profile.php" target="_blank">
+        <img src="fb-cover.jng" alt="fb-cover" title="fb-coverrrrr" width="" height="">
+    </a>
+    <p>----------------------------------------------</p>
+    <table style.border="1">
+        <tr>
+            <th>STT</th> <!--table header-->
+            <th>Họ tên</th>
+            <th>Lớp</th>
+        </tr>
+        <tr>
+            <td>1</td> <!--Table data-->
+            <td>Nguyễn Văn A</td>
+            <td>PMCL</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td colspan="2">None</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Nguyễn Văn B</td>
+            <td>KTPM</td>
+        </tr>
+
+    </table>
+    <form action="" method="GET" accept-charset="UTF-8">
+        <!--action: java script
+            method: GET/POST/PUSH/PATCH/DELETE-->
+        <LABEL for="full-name">Họ và tên: </LABEL>
+        <input type="text" name="full-name" value="" placeholder="Họ và tên">
+        <label for="about-your-self">Mô tả về bạn: </label>
+        <textarea name="about-your-self" id="" cols="30" rows="10"></textarea>
+        <button>Xóa dữ liệu</button>
+        <input type="submit" value="Gửi dữ liệu">
+        <!--
+        type: color/checkbox/date/datetime/datetime-local/email/file/hidden/
+        image/month/number/password/radio/range/reset/search/tel/time/url/week
+        -->
+        <select name="" id="">
+            <optgroup label="UIT">
+                <option value="">DAA</option>
+                <option value="">Website môn học</option>
+            </optgroup>
+            <optgroup label="Mạng xã hội">
+                <option value="">FB</option>
+                <option value="">Zalo</option>
+            </optgroup>
+        </select>
+    </form>
+</body>
