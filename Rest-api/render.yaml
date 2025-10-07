@@ -1,6 +1,7 @@
 services:
   - type: web
-    name: ex2-rest-api
+    name: restAPI_23521111
     env: node
+    rootDirectory: Rest-api
     buildCommand: npm install
     startCommand: node server.js
