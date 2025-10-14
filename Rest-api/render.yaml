@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: webLab_23521111
+    env: node
+    rootDirectory: Rest api
+    buildCommand: npm install
+    startCommand: npm start
