@@ -1,6 +1,0 @@
-services:
-  - type: web
-    name: ex2-rest-api
-    env: node
-    buildCommand: npm install
-    startCommand: node server.js

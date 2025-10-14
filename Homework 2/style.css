@@ -1,0 +1,45 @@
+body {
+  background-color: #1e2746;
+  color: white;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  color: white;
+  margin: 50px 0;
+}
+
+.set {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.drum {
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #ff007f;
+  font-size: 2rem;
+  font-weight: bold;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.drum img {
+  width: 70px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+}
+
+.drum:active,
+.pressed {
+  transform: scale(0.9);
+  box-shadow: 0 0 15px #ff007f;
+}
